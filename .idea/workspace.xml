@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9949eef3-5418-4e0b-88b2-817271b463b0" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/config/CustomeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/api/RoleApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/controller/RolePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/payload/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/repository/RolesRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rolepage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/config/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/config/MysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/config/CustomeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/config/CustomeFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/controller/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/controller/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/repository/UserRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/repository/UserRespository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demobuoi13/crm/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hieu/IdeaProjects/Demobuoi12&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hieu/IdeaProjects/project_crm&quot;
   }
 }</component>
   <component name="RunManager">
@@ -84,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665308259344</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1665684327044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665684327044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

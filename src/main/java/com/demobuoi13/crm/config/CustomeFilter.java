@@ -3,10 +3,8 @@ package com.demobuoi13.crm.config;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
-
-
 //cai filter nay giong nhu cách cửa đến với servlet khi mình request tới trang đó thì phải đến cái này
 //có 2 cách dùng filter để lọc
 // cách 1 dùng xml
@@ -26,8 +24,25 @@ public class CustomeFilter implements Filter {
 //      mình ép kiểu như này là dùng đc thuộc tính HttepServletRequest và resposne
 //        HttpServletRequest request = (HttpServletRequest) servletRequest;
 //        HttpServletResponse response = (HttpServletResponse) servletResponse;
-
-
+//
+//        HttpSession session = request.getSession();
+//        if(session.getAttribute("isLogin") != null && !session.getAttribute("isLogin").equals("")){
+//            boolean isLogin = (boolean) session.getAttribute("isLogin");
+//
+//            if(isLogin){
+//                if(request.getServletPath().equals("/login")){
+//                    response.sendRedirect(request.getContextPath() + "/home");
+//                }else {
+//                    filterChain.doFilter(request,response);
+//                }
+//            }
+//        }else {
+//            if(request.getServletPath().equals("/login")){
+//                filterChain.doFilter(request,response);
+//            }else {
+//                response.sendRedirect(request.getContextPath() + "/login");
+//            }
+//        }
 
         filterChain.doFilter(servletRequest,servletResponse);
     }

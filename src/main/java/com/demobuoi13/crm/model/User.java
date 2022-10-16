@@ -17,7 +17,18 @@ public class User {
     private String password;
     private int roleId;
 
+    public User(int id, String name, String phoneNumber, String address, String email, String password, int roleId) {
+        this.id = id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.email = email;
+        this.password = password;
+        this.roleId = roleId;
+    }
 
+    public User() {
+    }
 
     public int getId() {
         return id;

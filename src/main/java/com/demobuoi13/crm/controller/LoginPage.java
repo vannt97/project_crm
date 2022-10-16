@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.sql.Connection;
 
 @WebServlet(name = "login", urlPatterns = "/login")
-public class LoginPage extends HttpServlet {
+    public class LoginPage extends HttpServlet {
 //    webapp sẽ truy cập thông qua datasource để kết nối với database , bất kỳ ngôn ngữ nào cũng vậy
 //    jdbc giúp webapp kết nối với database
 //    phải tạo thêm thư mục config để cho set up, cấu hình cho project này.
